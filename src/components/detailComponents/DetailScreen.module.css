@@ -1,0 +1,50 @@
+.ad_banner {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  color: white;
+  background-size: cover;
+}
+.detailSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    gap: 40px;
+}
+.detail{
+ width: 300px;
+  height: 450px;
+  align-items:flex-start;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.6);
+  justify-content: flex-start;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  align-self: center;
+  flex-wrap: wrap;
+
+}
+.detailInstruction{
+ width: 500px;
+  height: 450px;
+  align-items:flex-start;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.6);
+  justify-content:flex-start;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  align-self: center;
+  flex-wrap: wrap;
+
+}

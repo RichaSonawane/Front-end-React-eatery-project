@@ -17,7 +17,7 @@ function App() {
           <Route path="/recipe/:id" element={<DetailScreen />} />
         </Routes>
       </main>
-      {/* This is where you will code for some of Part 1. */}
+     
       <Footer />
     </div>
   );
