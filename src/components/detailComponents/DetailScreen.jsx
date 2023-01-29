@@ -17,6 +17,8 @@ useEffect(() => {
   });
 }, []);
 
+
+
   return (
     <section>
       <div
@@ -34,9 +36,9 @@ useEffect(() => {
         <div className={classes.detail}>
           <div>
             <h2>{recipe.recipe_name}</h2>
-            <h4>{recipe.prep_time}</h4>
-            <h4>{recipe.cook_time}</h4>
-            <h4>{recipe.serves}</h4>
+            <h4>Preperation time:{recipe.prep_time}</h4>
+            <h4>Cook time:{recipe.cook_time}</h4>
+            <h4>Serves:{recipe.serves}</h4>
           </div>
           <div>
             <h2>Ingredients</h2>
